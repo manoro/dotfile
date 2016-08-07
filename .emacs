@@ -1,4 +1,4 @@
-;;ln -s dotfiles/.emacs .emacs
+;;ln -s dotfile/.emacs .emacs
 (load (expand-file-name (concat (getenv "HOME") "/dotfile/.emacs.d/init")))
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
