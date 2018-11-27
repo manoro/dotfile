@@ -4,9 +4,6 @@
 (add-to-list 'default-frame-alist
                 '(font ."-unknown-Ubuntu Mono-normal-normal-normal-*-13-*-*-*-m-0-iso10646-1"))
 
-;;;日本語環境の設定
-(set-language-evvironment "Japanese")
-
 ;;; カーソルの点滅を止める
 (blink-cursor-mode 0)
 
@@ -37,7 +34,6 @@
 
 ;;; カーソルの位置が何行目かを表示する
 (line-number-mode )
-
 ;;; バックアップファイルを作らない
 (setq backup-inhibited t)
 
@@ -55,4 +51,4 @@
 
 ;; emacsclientで接続できるようにする。
 ;; 2011-06-14
-(server-start)
+;;(server-start)
